@@ -2,15 +2,17 @@
     <element label="Event" max_length="40" name="x_845657_serviceno_u_event" sizeclass="0" type="collection">
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="ID" max_length="40" name="id" type="string"/>
-        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
-                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="Urgent" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Not urgent" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Normal" sequence="2" value="Choice 3"/>
             </choice>
         </element>
+        <element attributes="encode_utf8=false" label="Proposed by" max_length="32" name="u_reference_2" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
     </element>
 </database>
