@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Event" max_length="40" name="x_845657_serviceno_u_event" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+    </element>
+</database>
