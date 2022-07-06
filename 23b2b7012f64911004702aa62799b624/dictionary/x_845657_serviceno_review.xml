@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Review" max_length="40" name="x_845657_serviceno_review" type="collection">
+    <element label="Review" max_length="40" name="x_845657_serviceno_review" sizeclass="0" type="collection">
         <element label="Comment" max_length="400" name="comment" type="string"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Event" max_length="32" name="event" reference="x_845657_serviceno_u_event" type="reference"/>
         <element label="ID" max_length="40" name="id" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Stars" max_length="40" name="stars" type="string"/>
         <element label="User" mandatory="true" max_length="40" name="user" type="string"/>
         <index name="index">
