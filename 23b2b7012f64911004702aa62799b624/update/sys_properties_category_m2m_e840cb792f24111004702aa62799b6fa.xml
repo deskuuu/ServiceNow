@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="ServiceNowProperties">d9e0cefd2f20111004702aa62799b68f</category>
+        <order>100</order>
+        <property display_value="x_845657_serviceno.daysInPast" name="x_845657_serviceno.daysInPast">27bffa792f24111004702aa62799b6c6</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 12:54:58</sys_created_on>
+        <sys_id>e840cb792f24111004702aa62799b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_845657_serviceno.daysInPast.ServiceNowProperties</sys_name>
+        <sys_package display_value="ServiceNow " source="x_845657_serviceno">23b2b7012f64911004702aa62799b624</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow ">23b2b7012f64911004702aa62799b624</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_e840cb792f24111004702aa62799b6fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 12:54:58</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

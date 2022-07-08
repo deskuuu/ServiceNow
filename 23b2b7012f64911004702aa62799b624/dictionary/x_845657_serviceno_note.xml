@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Note" max_length="40" name="x_845657_serviceno_note" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Proposed by" max_length="40" name="proposed_by" reference="sys_user" type="reference"/>
+        <element label="Proposed mail" max_length="40" name="proposed_mail" type="string"/>
+        <element choice="1" default="open" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+                <element inactive_on_update="false" label="Reviewing" value="reviewing"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="What happened" max_length="400" name="what_happened" type="string"/>
+        <element label="When happened" max_length="40" name="when_happened" type="glide_date_time"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

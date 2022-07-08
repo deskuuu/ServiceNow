@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_845657_serviceno_note">x_845657_serviceno_note</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>NOT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 14:01:31</sys_created_on>
+        <sys_id>9f7fc7f52f64111004702aa62799b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOT</sys_name>
+        <sys_package display_value="ServiceNow " source="x_845657_serviceno">23b2b7012f64911004702aa62799b624</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow ">23b2b7012f64911004702aa62799b624</sys_scope>
+        <sys_update_name>sys_number_9f7fc7f52f64111004702aa62799b6dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 14:01:31</sys_updated_on>
+    </sys_number>
+</record_update>

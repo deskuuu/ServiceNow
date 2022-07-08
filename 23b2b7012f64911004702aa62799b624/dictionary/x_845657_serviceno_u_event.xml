@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Event" max_length="40" name="x_845657_serviceno_u_event" sizeclass="0" type="collection">
+    <element attributes="live_feed=true" label="Event" max_length="40" name="x_845657_serviceno_u_event" sizeclass="10" type="collection">
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="ID" max_length="40" name="id" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Urgent" sequence="0" value="Choice 1"/>
@@ -9,10 +10,14 @@
                 <element inactive_on_update="false" label="Normal" sequence="2" value="Choice 3"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Proposed by" max_length="32" name="u_reference_2" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Proposed by" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_string_1" type="string"/>
         <index name="index">
             <element name="u_reference_2"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>

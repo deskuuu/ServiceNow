@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Number of days in advance required to save an Event.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_845657_serviceno.daysInAdvance</name>
+        <read_roles/>
+        <suffix>daysInAdvance</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 08:21:45</sys_created_on>
+        <sys_id>e84106312f60111004702aa62799b682</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_845657_serviceno.daysInAdvance</sys_name>
+        <sys_package display_value="ServiceNow " source="x_845657_serviceno">23b2b7012f64911004702aa62799b624</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow ">23b2b7012f64911004702aa62799b624</sys_scope>
+        <sys_update_name>sys_properties_e84106312f60111004702aa62799b682</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 10:24:14</sys_updated_on>
+        <type>integer</type>
+        <value>3</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e84106312f60111004702aa62799b682"/>
+</record_update>

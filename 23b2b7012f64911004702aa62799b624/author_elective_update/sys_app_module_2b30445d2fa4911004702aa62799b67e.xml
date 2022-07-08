@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ServiceNow">56eacb652f20151004702aa62799b6f7</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Reviews</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_845657_serviceno_review</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_845657_serviceno.review_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 09:39:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b30445d2fa4911004702aa62799b67e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reviews</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow " source="x_845657_serviceno">23b2b7012f64911004702aa62799b624</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow ">23b2b7012f64911004702aa62799b624</sys_scope>
+        <sys_update_name>sys_app_module_2b30445d2fa4911004702aa62799b67e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 08:56:14</sys_updated_on>
+        <timeline_page/>
+        <title>Reviews</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Create Review</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceNow ">23b2b7012f64911004702aa62799b624</application>
+        <file_path/>
+        <instance_id>2a84bf9edb22cc1049eac5970596198f</instance_id>
+        <instance_name>dev97857</instance_name>
+        <name>sys_app_module_2b30445d2fa4911004702aa62799b67e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ServiceNow">56eacb652f20151004702aa62799b6f7</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Reviews</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_845657_serviceno_review</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_845657_serviceno.review_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-06 09:39:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2b30445d2fa4911004702aa62799b67e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Reviews</sys_name><sys_overrides/><sys_package display_value="ServiceNow " source="x_845657_serviceno">23b2b7012f64911004702aa62799b624</sys_package><sys_policy/><sys_scope display_value="ServiceNow ">23b2b7012f64911004702aa62799b624</sys_scope><sys_update_name>sys_app_module_2b30445d2fa4911004702aa62799b67e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-08 08:56:14</sys_updated_on><timeline_page/><title>Reviews</title><uncancelable>false</uncancelable><view_name>Create Review</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1699564744</payload_hash>
+        <record_name>Reviews</record_name>
+        <reverted_from/>
+        <source>5e414d592fa8911004702aa62799b6ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 08:56:14</sys_created_on>
+        <sys_id>db990ef52f60111004702aa62799b617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181dd061c740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 08:56:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d3990ef500601110230098375e2dd817</update_guid>
+        <update_guid_history>d3990ef500601110230098375e2dd817:1699564744,a07986f5466011100e37b6d2c6a50e9e:691783249,e730445d8ca49110a3d47cba886f248c:-72833556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reviews">e84c06b92f60111004702aa62799b684</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-08 09:07:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>052cbf27b6524beeb4ecdb567072d604</sys_id>
+        <sys_metadata>2b30445d2fa4911004702aa62799b67e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reviews</sys_name>
+        <sys_package display_value="ServiceNow " source="x_845657_serviceno">23b2b7012f64911004702aa62799b624</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow ">23b2b7012f64911004702aa62799b624</sys_scope>
+        <sys_scope_delete display_value="">2f64979458b64b7293136df3aea11379</sys_scope_delete>
+        <sys_update_name>sys_app_module_2b30445d2fa4911004702aa62799b67e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_2b30445d2fa4911004702aa62799b67e">db990ef52f60111004702aa62799b617</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-08 09:07:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

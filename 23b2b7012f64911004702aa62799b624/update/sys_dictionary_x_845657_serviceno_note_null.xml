@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_reference_2" table="x_845657_serviceno_u_event">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_845657_serviceno_note">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>encode_utf8=false</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Proposed by</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,20 +27,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_reference_2</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_845657_serviceno_u_event</name>
+        <max_length>40</max_length>
+        <name>x_845657_serviceno_note</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-06 13:07:47</sys_created_on>
-        <sys_id>a80034992f68911004702aa62799b6ea</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Proposed by</sys_name>
+        <sys_created_on>2022-07-08 12:15:53</sys_created_on>
+        <sys_id>4c573e712f24111004702aa62799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_845657_serviceno_note</sys_name>
         <sys_package display_value="ServiceNow " source="x_845657_serviceno">23b2b7012f64911004702aa62799b624</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow ">23b2b7012f64911004702aa62799b624</sys_scope>
-        <sys_update_name>sys_dictionary_x_845657_serviceno_u_event_u_reference_2</sys_update_name>
+        <sys_update_name>sys_dictionary_x_845657_serviceno_note_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-07 08:36:50</sys_updated_on>
+        <sys_updated_on>2022-07-08 12:15:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
